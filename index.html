@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            document {
+                font-family: cursive;
+            }
+
+            #maeh {
+                width: 100%;
+                height: 100vh;
+                font-size: 250px;
+                margin: 0 auto;
+                background-color: white;
+                border: none;
+                position: absolute;
+                left: 0;
+                top: 0; 
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="maeh" onClick="maeh();">MAEH</button>
+        <script>
+            var audio = new Audio('maeh.ogg');
+            function maeh() {
+                audio.play();
+            }
+        </script>
+    </body>
+</html>
